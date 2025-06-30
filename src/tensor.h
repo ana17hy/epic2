@@ -35,7 +35,7 @@ namespace neural_network {
       return forward(X);
     }
 
-    // Entrena usando una función de pérdida y un optimizador
+    // Entrena usando una función de perdida y un optimizador
     template <template<typename> class Loss, template<typename> class Optim>
     void train(const Tensor<T,2>& X, const Tensor<T,2>& Y, size_t epochs, size_t bs, T lr) {
       Optim<T> opt(lr);
