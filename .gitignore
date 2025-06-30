@@ -1,10 +1,37 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Archivos generados por macOS
+.DS_Store
+
+# Archivos del sistema
 Library/
+Thumbs.db
+
+# Archivos de configuración de JetBrains/CLion
+.idea/
+*.iml
+shelf/
+workspace.xml
+
+# Compilación (CMake)
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del cliente HTTP de JetBrains
+httpRequests/
+
+# Archivos de configuración de bases de datos
+dataSources/
+dataSources.local.xml
+
+# Binarios
+*.o
+*.out
+*.exe
+
 
