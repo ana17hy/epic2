@@ -7,4 +7,5 @@ add_executable(epic2 main.cpp
         src/tensor.h
         src/nn_optimizer.h
         src/neural_network.h
-        src/nn_activation.h)
+        src/nn_activation.h
+        src/dense.h)
