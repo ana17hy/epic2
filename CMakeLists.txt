@@ -2,13 +2,8 @@ cmake_minimum_required(VERSION 3.31)
 project(epic2)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(epic2 main.cpp
-        src/tensor.h
-        src/nn_optimizer.h
-        src/neural_network.h
-        src/nn_activation.h
-        src/nn_dense.h
-        src/nn_interfaces.h
-        src/nn_loss.h)
+add_executable(epic2 epic2/tests_epic2.cpp)
 
+target_include_directories(epic2 PUBLIC epic2)
